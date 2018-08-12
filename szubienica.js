@@ -110,7 +110,7 @@ var trafiona = false;
     }
 
     if (haslo==haslo1)
-    document.getElementById("alfabet").innerHTML = "To prawda";
+    document.getElementById("alfabet").innerHTML = "P.S. To prawda";
 
     
 }
