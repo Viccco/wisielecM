@@ -1,0 +1,59 @@
+body {
+  overflow: hidden;
+  background-color: black;
+  color: lightgrey;
+  font-size: 28px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+}
+
+.pojemnik {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plansza {
+  width: auto;
+  margin: 50px 0;
+  font-size: 48px;
+  text-align: center;
+  min-height: 60px;
+  font-weight: 700;
+  
+}
+
+#szubienica {
+  width: 450px;
+  text-align: center;
+  min-block-size: 280px;
+}
+
+#alfabet {
+  width: 450px;
+  text-align: center;  
+  min-block-size: 280px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.litera {
+    width: 30px;
+    height: 35px;
+    text-align:center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid lightgray;
+    cursor: pointer;
+    border-radius: 15px;
+    flex-basis: 8%;
+}
+
+.litera:hover {
+    background-color: rgb(255, 255, 255, 0.3);
+    
+}
