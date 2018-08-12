@@ -112,5 +112,8 @@ var trafiona = false;
     if (haslo==haslo1)
     document.getElementById("alfabet").innerHTML = "P.S. To prawda";
 
+    if (fail>8)
+        document.getElementById("alfabet").innerHTML = "LOL NOOB. <br><br> You dead.";
+
     
 }
